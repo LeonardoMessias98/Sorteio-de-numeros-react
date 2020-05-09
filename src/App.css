@@ -1,0 +1,46 @@
+body{
+  background-image: linear-gradient(to bottom right, #e02041, rgb(255, 239, 11));
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.center {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+
+  border-radius: 12px;
+  border: none;
+
+  background-image: linear-gradient(to bottom right, #ffffff, rgb(250, 237, 61));
+  
+}
+
+.inputContent {
+  margin: 10px;
+  padding: 5px;
+
+  border-radius: 12px;
+  border: none;
+
+  width: 230px;
+}
