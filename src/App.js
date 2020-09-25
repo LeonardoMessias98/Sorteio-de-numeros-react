@@ -27,11 +27,11 @@ function App() {
   return (
     <div className='center'>
       <div className='mainText'>
-        <h1>Escolher fotos para o luan</h1>
+        <h1>Digite um numero</h1>
         <h2>Resultado: {valor}</h2>
       </div>
       <div className='inputs'>
-        <input className='inputContent' type='text' placeholder='Quantas imagens foram enviadas ?'/>
+        <input className='inputContent' type='text' placeholder='Digite um numero ?'/>
 
         <div className='buttons' >
           <button

@@ -5,6 +5,10 @@ body{
   background-attachment: fixed;
 }
 
+h1, h2 { 
+  color: white;
+}
+
 .center {
   flex: 1;
   display: flex;
